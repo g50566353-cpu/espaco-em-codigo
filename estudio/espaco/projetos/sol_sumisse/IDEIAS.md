@@ -50,6 +50,32 @@ O palco é o Sol embaixo e a Terra em cima (com a Lua), na vertical do 9:16 (`ro
 - **As temperaturas são da média da superfície** e são estimativas (outras fontes dão números diferentes para o fim do primeiro ano). A fala diz "a média".
 - **A Lua continua presa à Terra** e vai junto na linha reta. A fala não entra nisso.
 
+## Plano de cenas (portão 2; roteiro aprovado)
+
+Direção de tela fixa: a câmera olha a órbita de cima e gira junto com o eixo, de modo que **o lugar do Sol fica sempre embaixo e a Terra sempre em cima**. Dentro de cada plano a câmera não gira, para dar para ver a Terra andando na órbita.
+
+| Plano | O que a pessoa vê | O que ela entende | O que é novo |
+|---|---|---|---|
+| 1 (A1) | o Sol embaixo, a Terra e a Lua em cima, um feixe de luz entre os dois; o Sol some com um clarão | a pergunta, com os objetos dela | — |
+| 2 (A2–A3) | um ponto de luz sobe pelo feixe, do lugar vazio até a Terra, e o feixe encolhe atrás dele | a luz que já estava no caminho continua chegando | a última luz |
+| 3 (B1) | a Terra dispara para fora da órbita | a versão de filme | o voo |
+| 4 (B2) | ◀◀ a Terra volta; um anel azul nasce no lugar vazio e cresce junto com o ponto de luz | a gravidade também viaja na velocidade da luz | o anel |
+| 5 (B3) | a Terra segue a órbita tracejada em volta de um círculo tracejado vazio | ela continua girando em volta do nada | o lugar vazio |
+| 6 (C1) | o ponto de luz e o anel chegam juntos na Terra | a última luz chega | close |
+| 7 (C1) | a Terra escurece | o céu fica preto | a Terra apagada |
+| 8 (C2) | a Lua, ainda clara, apaga | a Lua só reflete o Sol | a Lua apagada |
+| 9 (C3) | uma seta reta sai da órbita e a Terra anda por ela, na mesma velocidade | linha reta, tangente | a seta |
+| 10 (D1) | uma casca de gelo cobre a Terra escura | o frio de uma semana | o gelo |
+| 11 (D2) | o gelo fica mais grosso | um ano, o mar congela por cima | gelo mais grosso |
+| 12 (D3) | por baixo do gelo, a água acende em azul | lá no fundo a água continua líquida | a água |
+| 13 (Q1) | a câmera recua: a Terra pequena e escura em cima, o lugar vazio embaixo | a pergunta fica no ar | o recuo (sem fade) |
+
+## Como foi feito (para quem mexer depois)
+
+- `gerar_plano.py` gera o `plano.json` a partir do `linhas.json`. **Rode de novo sempre que a voz mudar** (a voz final da ElevenLabs troca os tempos). A Terra anda na órbita por movimentos encadeados em pontos fixos do círculo, o que deixa exatos o ponto de saída e a reta tangente; na reta, a velocidade é a mesma da órbita (ela não "acelera" ao sair).
+- `extra.js` desenha o feixe, a última luz e o anel da gravidade com a **mesma lei de movimento** (os efeitos `pulso` e `onda` do estúdio usam curvas diferentes e não chegariam juntos). No trecho de "filme" e no rebobinar, a luz e o anel ficam parados.
+- O estúdio não tem como desligar a luz e pinta o lado da noite de azul. Para "o céu fica preto" e "a Lua apaga", o `extra.js` cobre a Terra e a Lua com uma esfera preta semitransparente na hora certa; o gelo e a água ficam por fora dela.
+
 ## Próximo portão
 
-Com o sim do roteiro: voz-guia, plano de cenas (`plano.json`), quadros e rascunho com conferência. A voz final (ElevenLabs) e o render inteiro só no fim, cada um com o seu sim.
+Rascunho com a voz-guia e conferência; depois, com o seu sim, a voz final (ElevenLabs) e o render inteiro.

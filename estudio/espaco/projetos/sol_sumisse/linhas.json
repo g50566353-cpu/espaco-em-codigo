@@ -1,0 +1,1306 @@
+{
+ "titulo": "E se o Sol sumisse?",
+ "total": 48.764,
+ "linhas": [
+  {
+   "id": "A1",
+   "texto": "E se o Sol sumisse agora?",
+   "t0": 0.25,
+   "t1": 2.068,
+   "dur": 1.818,
+   "pausa": 0.4,
+   "arquivo": "voz/A1.wav",
+   "pedacos": [
+    {
+     "texto": "E se o Sol",
+     "bruto": "E se o Sol",
+     "ouro": [],
+     "ver": [
+      "sol",
+      "terra"
+     ],
+     "t0": 0.25,
+     "t1": 0.915,
+     "palavras": [
+      {
+       "t": "E",
+       "t0": 0.25,
+       "t1": 0.429
+      },
+      {
+       "t": "se",
+       "t0": 0.429,
+       "t1": 0.566
+      },
+      {
+       "t": "o",
+       "t0": 0.566,
+       "t1": 0.698
+      },
+      {
+       "t": "Sol",
+       "t0": 0.698,
+       "t1": 0.915
+      }
+     ]
+    },
+    {
+     "texto": "sumisse agora?",
+     "bruto": "*sumisse* agora?",
+     "ouro": [
+      "sumisse"
+     ],
+     "ver": [
+      "terra"
+     ],
+     "t0": 0.915,
+     "t1": 1.735,
+     "palavras": [
+      {
+       "t": "sumisse",
+       "t0": 0.915,
+       "t1": 1.323
+      },
+      {
+       "t": "agora?",
+       "t0": 1.323,
+       "t1": 1.735
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "texto": "Por oito minutos, nada ia mudar.",
+   "t0": 2.468,
+   "t1": 4.861,
+   "dur": 2.394,
+   "pausa": 0.25,
+   "arquivo": "voz/A2.wav",
+   "pedacos": [
+    {
+     "texto": "Por oito minutos,",
+     "bruto": "Por *oito minutos*,",
+     "ouro": [
+      "oito minutos"
+     ],
+     "ver": [
+      "terra",
+      "luz"
+     ],
+     "t0": 2.468,
+     "t1": 3.477,
+     "palavras": [
+      {
+       "t": "Por",
+       "t0": 2.468,
+       "t1": 2.759
+      },
+      {
+       "t": "oito",
+       "t0": 2.759,
+       "t1": 3.003
+      },
+      {
+       "t": "minutos,",
+       "t0": 3.003,
+       "t1": 3.477
+      }
+     ]
+    },
+    {
+     "texto": "nada ia mudar.",
+     "bruto": "nada ia mudar.",
+     "ouro": [],
+     "ver": [
+      "terra",
+      "luz"
+     ],
+     "t0": 3.477,
+     "t1": 4.529,
+     "palavras": [
+      {
+       "t": "nada",
+       "t0": 3.477,
+       "t1": 4.006
+      },
+      {
+       "t": "ia",
+       "t0": 4.006,
+       "t1": 4.132
+      },
+      {
+       "t": "mudar.",
+       "t0": 4.132,
+       "t1": 4.529
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "texto": "A luz que já estava no caminho continua chegando.",
+   "t0": 5.111,
+   "t1": 8.4,
+   "dur": 3.289,
+   "pausa": 0.4,
+   "arquivo": "voz/A3.wav",
+   "pedacos": [
+    {
+     "texto": "A luz que já estava",
+     "bruto": "A luz que já estava",
+     "ouro": [],
+     "ver": [
+      "luz"
+     ],
+     "t0": 5.111,
+     "t1": 6.309,
+     "palavras": [
+      {
+       "t": "A",
+       "t0": 5.111,
+       "t1": 5.313
+      },
+      {
+       "t": "luz",
+       "t0": 5.313,
+       "t1": 5.556
+      },
+      {
+       "t": "que",
+       "t0": 5.556,
+       "t1": 5.661
+      },
+      {
+       "t": "já",
+       "t0": 5.661,
+       "t1": 5.915
+      },
+      {
+       "t": "estava",
+       "t0": 5.915,
+       "t1": 6.309
+      }
+     ]
+    },
+    {
+     "texto": "no caminho",
+     "bruto": "no caminho",
+     "ouro": [],
+     "ver": [
+      "luz"
+     ],
+     "t0": 6.309,
+     "t1": 6.863,
+     "palavras": [
+      {
+       "t": "no",
+       "t0": 6.309,
+       "t1": 6.444
+      },
+      {
+       "t": "caminho",
+       "t0": 6.444,
+       "t1": 6.863
+      }
+     ]
+    },
+    {
+     "texto": "continua chegando.",
+     "bruto": "continua chegando.",
+     "ouro": [],
+     "ver": [
+      "luz",
+      "terra"
+     ],
+     "t0": 6.863,
+     "t1": 8.068,
+     "palavras": [
+      {
+       "t": "continua",
+       "t0": 6.863,
+       "t1": 7.496
+      },
+      {
+       "t": "chegando.",
+       "t0": 7.496,
+       "t1": 8.068
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "texto": "Nos filmes, a Terra sairia voando na hora.",
+   "t0": 8.8,
+   "t1": 11.696,
+   "dur": 2.896,
+   "pausa": 0.35,
+   "arquivo": "voz/B1.wav",
+   "pedacos": [
+    {
+     "texto": "Nos filmes,",
+     "bruto": "Nos filmes,",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 8.8,
+     "t1": 9.475,
+     "palavras": [
+      {
+       "t": "Nos",
+       "t0": 8.8,
+       "t1": 9.123
+      },
+      {
+       "t": "filmes,",
+       "t0": 9.123,
+       "t1": 9.475
+      }
+     ]
+    },
+    {
+     "texto": "a Terra sairia voando",
+     "bruto": "a Terra sairia voando",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 9.475,
+     "t1": 11.021,
+     "palavras": [
+      {
+       "t": "a",
+       "t0": 9.475,
+       "t1": 9.843
+      },
+      {
+       "t": "Terra",
+       "t0": 9.843,
+       "t1": 10.099
+      },
+      {
+       "t": "sairia",
+       "t0": 10.099,
+       "t1": 10.521
+      },
+      {
+       "t": "voando",
+       "t0": 10.521,
+       "t1": 11.021
+      }
+     ]
+    },
+    {
+     "texto": "na hora.",
+     "bruto": "na hora.",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 11.021,
+     "t1": 11.364,
+     "palavras": [
+      {
+       "t": "na",
+       "t0": 11.021,
+       "t1": 11.194
+      },
+      {
+       "t": "hora.",
+       "t0": 11.194,
+       "t1": 11.364
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "texto": "Mas a gravidade também viaja na velocidade da luz.",
+   "t0": 12.046,
+   "t1": 15.693,
+   "dur": 3.647,
+   "pausa": 0.25,
+   "arquivo": "voz/B2.wav",
+   "pedacos": [
+    {
+     "texto": "Mas a gravidade",
+     "bruto": "Mas a *gravidade*",
+     "ouro": [
+      "gravidade"
+     ],
+     "ver": [
+      "gravidade"
+     ],
+     "t0": 12.046,
+     "t1": 13.108,
+     "palavras": [
+      {
+       "t": "Mas",
+       "t0": 12.046,
+       "t1": 12.42
+      },
+      {
+       "t": "a",
+       "t0": 12.42,
+       "t1": 12.499
+      },
+      {
+       "t": "gravidade",
+       "t0": 12.499,
+       "t1": 13.108
+      }
+     ]
+    },
+    {
+     "texto": "também viaja",
+     "bruto": "também viaja",
+     "ouro": [],
+     "ver": [
+      "gravidade",
+      "luz"
+     ],
+     "t0": 13.108,
+     "t1": 14.003,
+     "palavras": [
+      {
+       "t": "também",
+       "t0": 13.108,
+       "t1": 13.671
+      },
+      {
+       "t": "viaja",
+       "t0": 13.671,
+       "t1": 14.003
+      }
+     ]
+    },
+    {
+     "texto": "na velocidade da luz.",
+     "bruto": "na velocidade da luz.",
+     "ouro": [],
+     "ver": [
+      "gravidade",
+      "luz"
+     ],
+     "t0": 14.003,
+     "t1": 15.361,
+     "palavras": [
+      {
+       "t": "na",
+       "t0": 14.003,
+       "t1": 14.176
+      },
+      {
+       "t": "velocidade",
+       "t0": 14.176,
+       "t1": 14.913
+      },
+      {
+       "t": "da",
+       "t0": 14.913,
+       "t1": 15.09
+      },
+      {
+       "t": "luz.",
+       "t0": 15.09,
+       "t1": 15.361
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "texto": "Então a Terra continua girando em volta do nada.",
+   "t0": 15.943,
+   "t1": 19.241,
+   "dur": 3.298,
+   "pausa": 0.4,
+   "arquivo": "voz/B3.wav",
+   "pedacos": [
+    {
+     "texto": "Então a Terra continua",
+     "bruto": "Então a Terra continua",
+     "ouro": [],
+     "ver": [
+      "terra",
+      "orbita"
+     ],
+     "t0": 15.943,
+     "t1": 17.394,
+     "palavras": [
+      {
+       "t": "Então",
+       "t0": 15.943,
+       "t1": 16.383
+      },
+      {
+       "t": "a",
+       "t0": 16.383,
+       "t1": 16.514
+      },
+      {
+       "t": "Terra",
+       "t0": 16.514,
+       "t1": 16.753
+      },
+      {
+       "t": "continua",
+       "t0": 16.753,
+       "t1": 17.394
+      }
+     ]
+    },
+    {
+     "texto": "girando em volta",
+     "bruto": "girando em volta",
+     "ouro": [],
+     "ver": [
+      "terra",
+      "orbita"
+     ],
+     "t0": 17.394,
+     "t1": 18.494,
+     "palavras": [
+      {
+       "t": "girando",
+       "t0": 17.394,
+       "t1": 17.913
+      },
+      {
+       "t": "em",
+       "t0": 17.913,
+       "t1": 18.211
+      },
+      {
+       "t": "volta",
+       "t0": 18.211,
+       "t1": 18.494
+      }
+     ]
+    },
+    {
+     "texto": "do nada.",
+     "bruto": "do *nada*.",
+     "ouro": [
+      "nada"
+     ],
+     "ver": [
+      "vazio",
+      "orbita"
+     ],
+     "t0": 18.494,
+     "t1": 18.909,
+     "palavras": [
+      {
+       "t": "do",
+       "t0": 18.494,
+       "t1": 18.647
+      },
+      {
+       "t": "nada.",
+       "t0": 18.647,
+       "t1": 18.909
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1",
+   "texto": "Aí a última luz chega, e o céu fica preto.",
+   "t0": 19.641,
+   "t1": 22.668,
+   "dur": 3.026,
+   "pausa": 0.3,
+   "arquivo": "voz/C1.wav",
+   "pedacos": [
+    {
+     "texto": "Aí a última luz chega,",
+     "bruto": "Aí a última luz chega,",
+     "ouro": [],
+     "ver": [
+      "luz",
+      "terra"
+     ],
+     "t0": 19.641,
+     "t1": 20.994,
+     "palavras": [
+      {
+       "t": "Aí",
+       "t0": 19.641,
+       "t1": 19.925
+      },
+      {
+       "t": "a",
+       "t0": 19.925,
+       "t1": 20.053
+      },
+      {
+       "t": "última",
+       "t0": 20.053,
+       "t1": 20.432
+      },
+      {
+       "t": "luz",
+       "t0": 20.432,
+       "t1": 20.716
+      },
+      {
+       "t": "chega,",
+       "t0": 20.716,
+       "t1": 20.994
+      }
+     ]
+    },
+    {
+     "texto": "e o céu fica preto.",
+     "bruto": "e o céu fica *preto*.",
+     "ouro": [
+      "preto"
+     ],
+     "ver": [
+      "terra"
+     ],
+     "t0": 20.994,
+     "t1": 22.336,
+     "palavras": [
+      {
+       "t": "e",
+       "t0": 20.994,
+       "t1": 21.34
+      },
+      {
+       "t": "o",
+       "t0": 21.34,
+       "t1": 21.461
+      },
+      {
+       "t": "céu",
+       "t0": 21.461,
+       "t1": 21.663
+      },
+      {
+       "t": "fica",
+       "t0": 21.663,
+       "t1": 21.97
+      },
+      {
+       "t": "preto.",
+       "t0": 21.97,
+       "t1": 22.336
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "texto": "Até a Lua apaga, porque ela só reflete o Sol.",
+   "t0": 22.968,
+   "t1": 26.318,
+   "dur": 3.35,
+   "pausa": 0.35,
+   "arquivo": "voz/C2.wav",
+   "pedacos": [
+    {
+     "texto": "Até a Lua apaga,",
+     "bruto": "Até a *Lua* apaga,",
+     "ouro": [
+      "Lua"
+     ],
+     "ver": [
+      "lua"
+     ],
+     "t0": 22.968,
+     "t1": 24.002,
+     "palavras": [
+      {
+       "t": "Até",
+       "t0": 22.968,
+       "t1": 23.299
+      },
+      {
+       "t": "a",
+       "t0": 23.299,
+       "t1": 23.421
+      },
+      {
+       "t": "Lua",
+       "t0": 23.421,
+       "t1": 23.605
+      },
+      {
+       "t": "apaga,",
+       "t0": 23.605,
+       "t1": 24.002
+      }
+     ]
+    },
+    {
+     "texto": "porque ela só",
+     "bruto": "porque ela só",
+     "ouro": [],
+     "ver": [
+      "lua"
+     ],
+     "t0": 24.002,
+     "t1": 25.077,
+     "palavras": [
+      {
+       "t": "porque",
+       "t0": 24.002,
+       "t1": 24.626
+      },
+      {
+       "t": "ela",
+       "t0": 24.626,
+       "t1": 24.865
+      },
+      {
+       "t": "só",
+       "t0": 24.865,
+       "t1": 25.077
+      }
+     ]
+    },
+    {
+     "texto": "reflete o Sol.",
+     "bruto": "reflete o Sol.",
+     "ouro": [],
+     "ver": [
+      "lua"
+     ],
+     "t0": 25.077,
+     "t1": 25.983,
+     "palavras": [
+      {
+       "t": "reflete",
+       "t0": 25.077,
+       "t1": 25.582
+      },
+      {
+       "t": "o",
+       "t0": 25.582,
+       "t1": 25.779
+      },
+      {
+       "t": "Sol.",
+       "t0": 25.779,
+       "t1": 25.983
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "texto": "E a Terra sai em linha reta, a trinta quilômetros por segundo.",
+   "t0": 26.668,
+   "t1": 30.779,
+   "dur": 4.112,
+   "pausa": 0.4,
+   "arquivo": "voz/C3.wav",
+   "pedacos": [
+    {
+     "texto": "E a Terra sai",
+     "bruto": "E a Terra sai",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 26.668,
+     "t1": 27.496,
+     "palavras": [
+      {
+       "t": "E",
+       "t0": 26.668,
+       "t1": 26.847
+      },
+      {
+       "t": "a",
+       "t0": 26.847,
+       "t1": 26.967
+      },
+      {
+       "t": "Terra",
+       "t0": 26.967,
+       "t1": 27.219
+      },
+      {
+       "t": "sai",
+       "t0": 27.219,
+       "t1": 27.496
+      }
+     ]
+    },
+    {
+     "texto": "em linha reta,",
+     "bruto": "em *linha reta*,",
+     "ouro": [
+      "linha reta"
+     ],
+     "ver": [
+      "reta",
+      "terra"
+     ],
+     "t0": 27.496,
+     "t1": 28.242,
+     "palavras": [
+      {
+       "t": "em",
+       "t0": 27.496,
+       "t1": 27.742
+      },
+      {
+       "t": "linha",
+       "t0": 27.742,
+       "t1": 27.946
+      },
+      {
+       "t": "reta,",
+       "t0": 27.946,
+       "t1": 28.242
+      }
+     ]
+    },
+    {
+     "texto": "a trinta quilômetros",
+     "bruto": "a trinta quilômetros",
+     "ouro": [],
+     "ver": [
+      "reta",
+      "terra"
+     ],
+     "t0": 28.242,
+     "t1": 29.735,
+     "palavras": [
+      {
+       "t": "a",
+       "t0": 28.242,
+       "t1": 28.612
+      },
+      {
+       "t": "trinta",
+       "t0": 28.612,
+       "t1": 28.995
+      },
+      {
+       "t": "quilômetros",
+       "t0": 28.995,
+       "t1": 29.735
+      }
+     ]
+    },
+    {
+     "texto": "por segundo.",
+     "bruto": "por segundo.",
+     "ouro": [],
+     "ver": [
+      "reta",
+      "terra"
+     ],
+     "t0": 29.735,
+     "t1": 30.447,
+     "palavras": [
+      {
+       "t": "por",
+       "t0": 29.735,
+       "t1": 29.893
+      },
+      {
+       "t": "segundo.",
+       "t0": 29.893,
+       "t1": 30.447
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D1",
+   "texto": "Em uma semana, a média cai para dezoito graus abaixo de zero.",
+   "t0": 31.179,
+   "t1": 35.321,
+   "dur": 4.142,
+   "pausa": 0.25,
+   "arquivo": "voz/D1.wav",
+   "pedacos": [
+    {
+     "texto": "Em uma semana,",
+     "bruto": "Em uma semana,",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 31.179,
+     "t1": 32.019,
+     "palavras": [
+      {
+       "t": "Em",
+       "t0": 31.179,
+       "t1": 31.514
+      },
+      {
+       "t": "uma",
+       "t0": 31.514,
+       "t1": 31.611
+      },
+      {
+       "t": "semana,",
+       "t0": 31.611,
+       "t1": 32.019
+      }
+     ]
+    },
+    {
+     "texto": "a média cai para",
+     "bruto": "a média cai para",
+     "ouro": [],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 32.019,
+     "t1": 33.234,
+     "palavras": [
+      {
+       "t": "a",
+       "t0": 32.019,
+       "t1": 32.387
+      },
+      {
+       "t": "média",
+       "t0": 32.387,
+       "t1": 32.702
+      },
+      {
+       "t": "cai",
+       "t0": 32.702,
+       "t1": 32.969
+      },
+      {
+       "t": "para",
+       "t0": 32.969,
+       "t1": 33.234
+      }
+     ]
+    },
+    {
+     "texto": "dezoito graus",
+     "bruto": "*dezoito graus*",
+     "ouro": [
+      "dezoito graus"
+     ],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 33.234,
+     "t1": 34.145,
+     "palavras": [
+      {
+       "t": "dezoito",
+       "t0": 33.234,
+       "t1": 33.714
+      },
+      {
+       "t": "graus",
+       "t0": 33.714,
+       "t1": 34.145
+      }
+     ]
+    },
+    {
+     "texto": "abaixo de zero.",
+     "bruto": "abaixo de zero.",
+     "ouro": [],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 34.145,
+     "t1": 34.986,
+     "palavras": [
+      {
+       "t": "abaixo",
+       "t0": 34.145,
+       "t1": 34.57
+      },
+      {
+       "t": "de",
+       "t0": 34.57,
+       "t1": 34.708
+      },
+      {
+       "t": "zero.",
+       "t0": 34.708,
+       "t1": 34.986
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D2",
+   "texto": "Em um ano, setenta e três, e o mar congela por cima.",
+   "t0": 35.571,
+   "t1": 39.351,
+   "dur": 3.78,
+   "pausa": 0.4,
+   "arquivo": "voz/D2.wav",
+   "pedacos": [
+    {
+     "texto": "Em um ano,",
+     "bruto": "Em um ano,",
+     "ouro": [],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 35.571,
+     "t1": 36.15,
+     "palavras": [
+      {
+       "t": "Em",
+       "t0": 35.571,
+       "t1": 35.906
+      },
+      {
+       "t": "um",
+       "t0": 35.906,
+       "t1": 36.026
+      },
+      {
+       "t": "ano,",
+       "t0": 36.026,
+       "t1": 36.15
+      }
+     ]
+    },
+    {
+     "texto": "setenta e três,",
+     "bruto": "*setenta e três*,",
+     "ouro": [
+      "setenta e três"
+     ],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 36.15,
+     "t1": 37.387,
+     "palavras": [
+      {
+       "t": "setenta",
+       "t0": 36.15,
+       "t1": 36.927
+      },
+      {
+       "t": "e",
+       "t0": 36.927,
+       "t1": 37.048
+      },
+      {
+       "t": "três,",
+       "t0": 37.048,
+       "t1": 37.387
+      }
+     ]
+    },
+    {
+     "texto": "e o mar congela",
+     "bruto": "e o mar congela",
+     "ouro": [],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 37.387,
+     "t1": 38.534,
+     "palavras": [
+      {
+       "t": "e",
+       "t0": 37.387,
+       "t1": 37.733
+      },
+      {
+       "t": "o",
+       "t0": 37.733,
+       "t1": 37.854
+      },
+      {
+       "t": "mar",
+       "t0": 37.854,
+       "t1": 38.006
+      },
+      {
+       "t": "congela",
+       "t0": 38.006,
+       "t1": 38.534
+      }
+     ]
+    },
+    {
+     "texto": "por cima.",
+     "bruto": "por cima.",
+     "ouro": [],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 38.534,
+     "t1": 39.019,
+     "palavras": [
+      {
+       "t": "por",
+       "t0": 38.534,
+       "t1": 38.735
+      },
+      {
+       "t": "cima.",
+       "t0": 38.735,
+       "t1": 39.019
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D3",
+   "texto": "Mas o gelo vira um cobertor, e lá no fundo a água continua líquida.",
+   "t0": 39.751,
+   "t1": 44.347,
+   "dur": 4.596,
+   "pausa": 0.35,
+   "arquivo": "voz/D3.wav",
+   "pedacos": [
+    {
+     "texto": "Mas o gelo vira",
+     "bruto": "Mas o gelo vira",
+     "ouro": [],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 39.751,
+     "t1": 40.699,
+     "palavras": [
+      {
+       "t": "Mas",
+       "t0": 39.751,
+       "t1": 40.125
+      },
+      {
+       "t": "o",
+       "t0": 40.125,
+       "t1": 40.193
+      },
+      {
+       "t": "gelo",
+       "t0": 40.193,
+       "t1": 40.386
+      },
+      {
+       "t": "vira",
+       "t0": 40.386,
+       "t1": 40.699
+      }
+     ]
+    },
+    {
+     "texto": "um cobertor,",
+     "bruto": "um *cobertor*,",
+     "ouro": [
+      "cobertor"
+     ],
+     "ver": [
+      "gelo"
+     ],
+     "t0": 40.699,
+     "t1": 41.481,
+     "palavras": [
+      {
+       "t": "um",
+       "t0": 40.699,
+       "t1": 40.885
+      },
+      {
+       "t": "cobertor,",
+       "t0": 40.885,
+       "t1": 41.481
+      }
+     ]
+    },
+    {
+     "texto": "e lá no fundo",
+     "bruto": "e lá no fundo",
+     "ouro": [],
+     "ver": [
+      "fundo"
+     ],
+     "t0": 41.481,
+     "t1": 42.494,
+     "palavras": [
+      {
+       "t": "e",
+       "t0": 41.481,
+       "t1": 41.826
+      },
+      {
+       "t": "lá",
+       "t0": 41.826,
+       "t1": 42.006
+      },
+      {
+       "t": "no",
+       "t0": 42.006,
+       "t1": 42.117
+      },
+      {
+       "t": "fundo",
+       "t0": 42.117,
+       "t1": 42.494
+      }
+     ]
+    },
+    {
+     "texto": "a água continua líquida.",
+     "bruto": "a água continua líquida.",
+     "ouro": [],
+     "ver": [
+      "fundo"
+     ],
+     "t0": 42.494,
+     "t1": 44.012,
+     "palavras": [
+      {
+       "t": "a",
+       "t0": 42.494,
+       "t1": 42.658
+      },
+      {
+       "t": "água",
+       "t0": 42.658,
+       "t1": 42.896
+      },
+      {
+       "t": "continua",
+       "t0": 42.896,
+       "t1": 43.526
+      },
+      {
+       "t": "líquida.",
+       "t0": 43.526,
+       "t1": 44.012
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "Q1",
+   "texto": "E você, se soubesse, o que ia fazer nesses oito minutos?",
+   "t0": 44.697,
+   "t1": 48.564,
+   "dur": 3.867,
+   "pausa": 0.2,
+   "arquivo": "voz/Q1.wav",
+   "pedacos": [
+    {
+     "texto": "E você, se soubesse,",
+     "bruto": "E você, se soubesse,",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 44.697,
+     "t1": 46.136,
+     "palavras": [
+      {
+       "t": "E",
+       "t0": 44.697,
+       "t1": 44.877
+      },
+      {
+       "t": "você,",
+       "t0": 44.877,
+       "t1": 45.22
+      },
+      {
+       "t": "se",
+       "t0": 45.22,
+       "t1": 45.6
+      },
+      {
+       "t": "soubesse,",
+       "t0": 45.6,
+       "t1": 46.136
+      }
+     ]
+    },
+    {
+     "texto": "o que ia fazer",
+     "bruto": "o que ia fazer",
+     "ouro": [],
+     "ver": [
+      "terra"
+     ],
+     "t0": 46.136,
+     "t1": 47.189,
+     "palavras": [
+      {
+       "t": "o",
+       "t0": 46.136,
+       "t1": 46.495
+      },
+      {
+       "t": "que",
+       "t0": 46.495,
+       "t1": 46.608
+      },
+      {
+       "t": "ia",
+       "t0": 46.608,
+       "t1": 46.749
+      },
+      {
+       "t": "fazer",
+       "t0": 46.749,
+       "t1": 47.189
+      }
+     ]
+    },
+    {
+     "texto": "nesses oito minutos?",
+     "bruto": "nesses *oito minutos*?",
+     "ouro": [
+      "oito minutos"
+     ],
+     "ver": [
+      "terra",
+      "orbita"
+     ],
+     "t0": 47.189,
+     "t1": 48.232,
+     "palavras": [
+      {
+       "t": "nesses",
+       "t0": 47.189,
+       "t1": 47.543
+      },
+      {
+       "t": "oito",
+       "t0": 47.543,
+       "t1": 47.779
+      },
+      {
+       "t": "minutos?",
+       "t0": 47.779,
+       "t1": 48.232
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "voz": "guia"
+}
