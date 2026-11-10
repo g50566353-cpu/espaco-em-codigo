@@ -1,0 +1,139 @@
+{
+ "titulo": "E se o Sol sumisse?",
+ "pergunta_mae": "E se o Sol sumisse agora?",
+ "fontes": [
+  "A luz do Sol leva em média 8 minutos e 20 segundos para chegar à Terra (cerca de 150 milhões de km a 300 mil km/s; de 8 min 10 s a 8 min 27 s ao longo do ano). Smithsonian, How Things Fly: howthingsfly.si.edu/ask-an-explainer/how-long-does-it-take-light-sun-get-earth",
+  "A gravidade se propaga na velocidade da luz: as ondas gravitacionais (GW170817) e os raios gama (GRB 170817A) da fusão de duas estrelas de nêutrons chegaram com 1,7 s de diferença depois de cerca de 130 milhões de anos de viagem. LIGO/Virgo e Fermi/INTEGRAL, Abbott et al. 2017, ApJ Letters 848, L13 (resumo em ligo.org/science-summaries/GW170817GRB).",
+  "A Terra anda na órbita a cerca de 29,8 km/s (NASA, Earth Fact Sheet). Sem o puxão do Sol, ela segue em linha reta na direção em que estava indo (primeira lei de Newton).",
+  "A Lua não tem luz própria: ela brilha porque reflete a luz do Sol.",
+  "Temperatura média da superfície sem o Sol: abaixo de -18 °C (0 °F) em cerca de uma semana e uns -73 °C (-100 °F) em um ano; o gelo na superfície do mar isola a água de baixo, que continua líquida. Estimativa de David Stevenson (Caltech), em Popular Science, 2013 ('If the Sun went out, how long could life on Earth survive?'). Outras estimativas dão números diferentes para o fim do primeiro ano."
+ ],
+ "voz_guia": {
+  "mac": "Luciana",
+  "taxa": 190
+ },
+ "voz_final": {
+  "id": "hzcQtaL2e6Qrqg03np6e",
+  "modelo": "eleven_v4"
+ },
+ "falas": [
+  {
+   "id": "A1",
+   "pausa": 0.4,
+   "pedacos": [
+    "E se o Sol|sol,terra",
+    "*sumisse* agora?|terra"
+   ]
+  },
+  {
+   "id": "A2",
+   "pausa": 0.25,
+   "pedacos": [
+    "Por *oito minutos*,|terra,luz",
+    "nada ia mudar.|terra,luz"
+   ]
+  },
+  {
+   "id": "A3",
+   "pausa": 0.4,
+   "pedacos": [
+    "A luz que já estava|luz",
+    "no caminho|luz",
+    "continua chegando.|luz,terra"
+   ]
+  },
+  {
+   "id": "B1",
+   "pausa": 0.35,
+   "pedacos": [
+    "Nos filmes,|terra",
+    "a Terra sairia voando|terra",
+    "na hora.|terra"
+   ]
+  },
+  {
+   "id": "B2",
+   "pausa": 0.25,
+   "pedacos": [
+    "Mas a *gravidade*|gravidade",
+    "também viaja|gravidade,luz",
+    "na velocidade da luz.|gravidade,luz"
+   ]
+  },
+  {
+   "id": "B3",
+   "pausa": 0.4,
+   "pedacos": [
+    "Então a Terra continua|terra,orbita",
+    "girando em volta|terra,orbita",
+    "do *nada*.|vazio,orbita"
+   ]
+  },
+  {
+   "id": "C1",
+   "pausa": 0.3,
+   "pedacos": [
+    "Aí a última luz chega,|luz,terra",
+    "e o céu fica *preto*.|terra"
+   ]
+  },
+  {
+   "id": "C2",
+   "pausa": 0.35,
+   "pedacos": [
+    "Até a *Lua* apaga,|lua",
+    "porque ela só|lua",
+    "reflete o Sol.|lua"
+   ]
+  },
+  {
+   "id": "C3",
+   "pausa": 0.4,
+   "pedacos": [
+    "E a Terra sai|terra",
+    "em *linha reta*,|reta,terra",
+    "a trinta quilômetros|reta,terra",
+    "por segundo.|reta,terra"
+   ]
+  },
+  {
+   "id": "D1",
+   "pausa": 0.25,
+   "pedacos": [
+    "Em uma semana,|terra",
+    "a média cai para|gelo",
+    "*dezoito graus*|gelo",
+    "abaixo de zero.|gelo"
+   ]
+  },
+  {
+   "id": "D2",
+   "pausa": 0.4,
+   "pedacos": [
+    "Em um ano,|gelo",
+    "*setenta e três*,|gelo",
+    "e o mar congela|gelo",
+    "por cima.|gelo"
+   ]
+  },
+  {
+   "id": "D3",
+   "pausa": 0.35,
+   "pedacos": [
+    "Mas o gelo vira|gelo",
+    "um *cobertor*,|gelo",
+    "e lá no fundo|fundo",
+    "a água continua líquida.|fundo"
+   ]
+  },
+  {
+   "id": "Q1",
+   "pausa": 0.2,
+   "pedacos": [
+    "E você, se soubesse,|terra",
+    "o que ia fazer|terra",
+    "nesses *oito minutos*?|terra,orbita"
+   ]
+  }
+ ]
+}
