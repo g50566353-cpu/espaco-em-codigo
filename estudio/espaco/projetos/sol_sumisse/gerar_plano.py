@@ -150,9 +150,9 @@ ROT = [
     ("C1:chega+0.05", "o céu fica preto: a Terra apaga", "terra", ["terra", "lua"], 0.47, 0.48, 68, 66, 0.33, 4),
     ("C2", "a Lua, que ainda brilhava, apaga também", "lua", ["terra", "lua"], 0.48, 0.5, 66, 64, 0.33, 8),
     ("C3", "a Terra sai em linha reta, tangente à órbita", "terra", ["terra", "reta"], 0.68, 0.7, 70, 68, 0.36, 0),
-    ("D1", "o gelo começa a cobrir a Terra", "terra", ["terra"], 0.4, 0.43, 62, 58, 0.36, 6),
-    ("D2", "o gelo fica mais grosso: o mar congela por cima", "terra", ["terra"], 0.43, 0.46, 58, 54, 0.36, 14),
-    ("D3", "por baixo do gelo, a água ainda líquida acende", "terra", ["terra"], 0.44, 0.42, 54, 50, 0.34, 22),
+    ("D1", "o gelo começa a cobrir a Terra", "terra", ["terra"], 0.4, 0.43, 62, 58, 0.32, 6),
+    ("D2", "o gelo fica mais grosso: o mar congela por cima", "terra", ["terra"], 0.43, 0.46, 58, 54, 0.32, 14),
+    ("D3", "por baixo do gelo, a água ainda líquida acende", "terra", ["terra"], 0.44, 0.42, 54, 50, 0.32, 22),
     ("Q1", "a Terra no escuro, longe do lugar vazio; a câmera continua recuando", "terra", ["terra", "vazio"], 0.42, 0.7, 52, 64, 0.36, 0),
 ]
 planos = []
@@ -165,7 +165,8 @@ for i, (de, novo, heroi, enq, oc0, oc1, el0, el1, cy, giro) in enumerate(ROT):
         az1 = eixo(FIM_V)
     az0 = az_ant if az_ant is not None else eixo(t0)
     pl = {"de": de, "novo": novo, "longo": True, "compo": {"x": 0.46, "y": cy}, "luz": SOL,
-          "camera": {"de": cam(enq, oc0, az0, el0), "para": cam(enq, oc1, az1, el1), "curva": "meio" if de == "Q1" else "suave"}}
+          "camera": {"de": dict(planos[-1]["camera"]["para"]) if planos else cam(enq, oc0, az0, el0),
+                     "para": cam(enq, oc1, az1, el1), "curva": "meio" if de == "Q1" else "suave"}}
     if i > 0:
         pl["continuo"] = True
     if heroi:
@@ -184,7 +185,7 @@ objetos = {
     "vazio": {"tipo": "orbita", "em": [0, 0, 0], "raio": 2.0, "tracejada": True, "cor": "#9FB3E6", "opacidade": 0.85,
               "entra": "cresce", "mostrar": [["B3:nada-0.3", None]], "fundo": True},
     "reta": {"tipo": "seta", "pos": soma(seta_de, TAN(AC), L_SETA / 2), "raio": L_SETA / 2, "de": seta_de, "para": seta_para,
-             "largura": 0.12, "cor": "#FFD166", "desenha": ["C3:linha", "C3:linha+0.9"], "mostrar": [["C3:linha-0.05", "D1"]]},
+             "largura": 0.12, "cor": "#FFD166", "desenha": ["C3.2", "C3.2+0.8"], "mostrar": [["C3.2-0.05", "D1"]]},
     "fundo": {"tipo": "oceano", "em": "terra", "raio": 1.39, "opacidade": 0.55, "entra": "cresce",
               "realce": [{"de": "D3.3", "ate": "D3.3+0.3", "para": 0.7}, {"de": "D3.fim", "ate": "D3.fim+0.6", "para": 0.35}],
               "mostrar": [["D3.3-0.05", None]]},
@@ -193,6 +194,10 @@ objetos = {
 }
 
 eventos = [
+    # "luz" e "gravidade" são desenhados e registrados pelo extra.js; estes dois tremores de força zero
+    # só declaram os nomes para a conferência (ela confere os nomes pelo plano.json)
+    {"tipo": "tremor", "nome": "luz", "em": "A1:sumisse", "forca": 0, "dur": 0.01},
+    {"tipo": "tremor", "nome": "gravidade", "em": "B2", "forca": 0, "dur": 0.01},
     {"tipo": "clarao", "em": "A1:sumisse", "alvo": "sol", "forca": 0.55, "dur": 0.6},
     {"tipo": "som", "em": "A1:sumisse", "nota": "grave"},
     {"tipo": "som", "em": "B1", "nota": "plim"},

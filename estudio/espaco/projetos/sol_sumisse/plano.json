@@ -420,12 +420,12 @@
    "largura": 0.12,
    "cor": "#FFD166",
    "desenha": [
-    "C3:linha",
-    "C3:linha+0.9"
+    "C3.2",
+    "C3.2+0.8"
    ],
    "mostrar": [
     [
-     "C3:linha-0.05",
+     "C3.2-0.05",
      "D1"
     ]
    ]
@@ -645,7 +645,7 @@
    "camera": {
     "de": {
      "enquadrar": [
-      "vazio",
+      "sol",
       "terra"
      ],
      "ocupa": 0.64,
@@ -683,12 +683,12 @@
    "camera": {
     "de": {
      "enquadrar": [
-      "terra",
-      "lua"
+      "vazio",
+      "terra"
      ],
-     "ocupa": 0.5,
+     "ocupa": 0.62,
      "az": -15.05,
-     "el": 70,
+     "el": 74,
      "mm": 35,
      "so_altura": true
     },
@@ -801,11 +801,11 @@
     "de": {
      "enquadrar": [
       "terra",
-      "reta"
+      "lua"
      ],
-     "ocupa": 0.68,
+     "ocupa": 0.5,
      "az": -23.65,
-     "el": 70,
+     "el": 64,
      "mm": 35,
      "so_altura": true
     },
@@ -831,7 +831,7 @@
    "longo": true,
    "compo": {
     "x": 0.46,
-    "y": 0.36
+    "y": 0.32
    },
    "luz": {
     "de": "sol"
@@ -839,11 +839,12 @@
    "camera": {
     "de": {
      "enquadrar": [
-      "terra"
+      "terra",
+      "reta"
      ],
-     "ocupa": 0.4,
+     "ocupa": 0.7,
      "az": -40.8,
-     "el": 62,
+     "el": 68,
      "mm": 35,
      "so_altura": true
     },
@@ -868,7 +869,7 @@
    "longo": true,
    "compo": {
     "x": 0.46,
-    "y": 0.36
+    "y": 0.32
    },
    "luz": {
     "de": "sol"
@@ -905,7 +906,7 @@
    "longo": true,
    "compo": {
     "x": 0.46,
-    "y": 0.34
+    "y": 0.32
    },
    "luz": {
     "de": "sol"
@@ -915,7 +916,7 @@
      "enquadrar": [
       "terra"
      ],
-     "ocupa": 0.44,
+     "ocupa": 0.46,
      "az": -43.1,
      "el": 54,
      "mm": 35,
@@ -950,12 +951,11 @@
    "camera": {
     "de": {
      "enquadrar": [
-      "terra",
-      "vazio"
+      "terra"
      ],
      "ocupa": 0.42,
      "az": -41.73,
-     "el": 52,
+     "el": 50,
      "mm": 35,
      "so_altura": true
     },
@@ -977,6 +977,20 @@
   }
  ],
  "eventos": [
+  {
+   "tipo": "tremor",
+   "nome": "luz",
+   "em": "A1:sumisse",
+   "forca": 0,
+   "dur": 0.01
+  },
+  {
+   "tipo": "tremor",
+   "nome": "gravidade",
+   "em": "B2",
+   "forca": 0,
+   "dur": 0.01
+  },
   {
    "tipo": "clarao",
    "em": "A1:sumisse",
